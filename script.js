@@ -33,7 +33,7 @@ function loadQuestion(questionNumber) {
   let timer;
 
   function timeLeft() {
-    timerSpan.innerText = time;
+    timerSpan.innerText = String(time).padStart(2, "0");
     if (time > 0) {
       time--;
     } else if (time === 0) {
