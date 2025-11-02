@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #3f72af;
+  color: #112d4e;
+}
+
+main {
+  max-width: 800px;
+  background-color: #f9f7f7;
+  transition: all 0.2s ease;
+}
+
+.start-button {
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
+
+.start-button:hover {
+  opacity: 0.8;
+}
+
+.question {
+  color: #112d4e;
+}
+
+.option {
+  border-color: #112d4e;
+  background-color: #f9f7f7;
+  color: #112d4e;
+}
+
+.optionTrue {
+  background-color: rgba(0, 153, 0, 0.4);
+  color: #f9f7f7;
+  pointer-events: none;
+}
+
+.optionFalse {
+  background-color: hsla(0, 100%, 50%, 0.5);
+  color: #f9f7f7;
+  pointer-events: none;
+}
+
+.option:hover {
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
+
+.option:active {
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
+
+.question-count {
+  background-color: #3f72af;
+  color: #f9f7f7;
+}
+
+.next-button {
+  background-color: #112d4e;
+  color: #f9f7f7;
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}
